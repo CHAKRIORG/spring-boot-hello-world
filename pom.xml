@@ -12,6 +12,18 @@
 	<name>spring-boot-hello-world</name>
 	<description>Spring Boot Hello World</description>
 
+	<distributionManagement>
+		    <repository>
+			            <id>central</id>
+				            <name>a0h3ffmjx1uyt-artifactory-primary-0-releases</name>
+					            <url>https://gogineni.jfrog.io/artifactory/default-maven-local</url>
+						        </repository>
+							    <snapshotRepository>
+								            <id>snapshots</id>
+									            <name>a0h3ffmjx1uyt-artifactory-primary-0-snapshots</name>
+										            <url>https://gogineni.jfrog.io/artifactory/default-maven-local</url>
+											        </snapshotRepository>
+											</distributionManagement>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
